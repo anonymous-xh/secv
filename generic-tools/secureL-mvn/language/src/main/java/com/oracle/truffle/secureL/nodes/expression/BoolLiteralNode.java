@@ -2,7 +2,7 @@
  * Created on Wed April 13 2022
  *
  * The MIT License (MIT)
- * Copyright (c) 2022 anonymous-xh anonymous-xh, Institut d'Informatique Université de Neuchâtel (IIUN)
+ * Copyright (c) 2022 anonymous-xh anonymous-xh, Institut d'Informatique Université de institution (IIUN)
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy of this software
  * and associated documentation files (the "Software"), to deal in the Software without restriction,

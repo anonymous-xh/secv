@@ -3,7 +3,7 @@
  *
  * 
  * The MIT License (MIT)
- * Copyright (c) 2022 anonymous-xh anonymous-xh, Institut d'Informatique Université de Neuchâtel (IIUN)
+ * Copyright (c) 2022 anonymous-xh anonymous-xh, Institut d'Informatique Université de institution (IIUN)
  *
  * NB: I really do not know how to handle copyright texts :(-- anonymous-xh anonymous-xh
  * 
