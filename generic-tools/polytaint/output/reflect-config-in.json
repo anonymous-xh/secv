@@ -1,0 +1,12 @@
+[
+{
+"name":"java.lang.Object"
+},
+{
+"name":"polytaint.Trusted",
+"methods":[
+    {"name":"doPageRank","parameterTypes":["int"]},
+    {"name":"generateAndPreprocessGraph","parameterTypes":["int"]}
+]
+}
+]
