@@ -309,7 +309,7 @@ In _Proceedings of SPLASH Companion 2021_
 - Lukas Makor [**Run-time data analysis in dynamic runtimes**](https://dl.acm.org/doi/10.1145/3484271.3484974)
 In _Proceedings of SPLASH Companion 2021_
 
-<!-- -  Hugo Guiroux, Jean-Pierre Lozi, Peterson Yuhala, Jämes Ménétrey, Pascal Felber, Valerio Schiavoni, Alain Tchana, Gaël Thomas [**Montsalvat: Intel SGX Shielding for GraalVM Native Images**](#)
+<!-- -  Hugo Guiroux, Jean-Pierre Lozi, anonymous-xh anonymous-xh, Jämes Ménétrey, Pascal Felber, Valerio Schiavoni, Alain Tchana, Gaël Thomas [**Montsalvat: Intel SGX Shielding for GraalVM Native Images**](#)
 In _Proceedings of MIDDLEWARE 2021 - 22nd ACM/IFIP International Conference 2021_ -->
 
 ### 2020

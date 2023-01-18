@@ -63,7 +63,7 @@
 typedef unsigned long int pthread_t;
 
 /**
- * PYuhala: The following structures are normally not exposed.
+ * Panonymous-xh: The following structures are normally not exposed.
  * Exposed here because they are needed in the enclave RT.
  */
 
@@ -166,7 +166,7 @@ typedef union {
 /* Data structure for conditional variable handling.  The structure of
    the attribute type is not exposed on purpose.  */
 
-/* PYuhala: cond attr needed to be exposed */
+/* Panonymous-xh: cond attr needed to be exposed */
 /* Conditional variable attribute data structure.  */
 struct pthread_condattr
 {

@@ -1,7 +1,7 @@
 /*
  * Created on Wed Mar 09 2022
  *
- * The MIT License (MIT) Copyright (c) 2022 Peterson Yuhala
+ * The MIT License (MIT) Copyright (c) 2022 anonymous-xh anonymous-xh
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
  * associated documentation files (the "Software"), to deal in the Software without restriction,

@@ -2,7 +2,7 @@
  * Created on Wed Mar 31 2022
  *
  * The MIT License (MIT)
- * Copyright (c) 2022 Peterson Yuhala
+ * Copyright (c) 2022 anonymous-xh anonymous-xh
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy of this software
  * and associated documentation files (the "Software"), to deal in the Software without restriction,
@@ -71,7 +71,7 @@ public class PythonGenericReadWrapper extends PolyTaintNode {
         }
 
         /**
-         * PYuhala: var writes, function calls, and var reads in python all
+         * Panonymous-xh: var writes, function calls, and var reads in python all
          * seem to be instrumented with the var read wrapper. So we need
          * to differentiate between variables and methods.
          */

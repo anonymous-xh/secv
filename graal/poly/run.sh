@@ -1,7 +1,7 @@
 
 #!/bin/bash
 #
-# Copyright (c) 2020 Peterson Yuhala, IIUN
+# Copyright (c) 2020 anonymous-xh anonymous-xh, IIUN
 # Test
 #
 

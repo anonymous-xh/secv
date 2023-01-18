@@ -113,7 +113,7 @@ public abstract class AbstractCopyingImageHeapProvider extends AbstractImageHeap
 
     /**
      * 
-     * Peterson Yuhala
+     * anonymous-xh anonymous-xh
      * This is the original initialize method. The one above is the version from 
      * the previous GraalVM version which works.
      */

@@ -432,7 +432,7 @@ public abstract class NativeImageViaCC extends NativeImage {
     public LinkerInvocation write(DebugContext debug, Path outputDirectory, Path tempDirectory, String imageName,
             BeforeImageWriteAccessImpl config) {
 
-        // pyuhala
+        // panonymous-xh
         boolean isSGXObject = getOutputKind().getSGXType();
         try (Indent indent = debug.logAndIndent("Writing native image")) {
             // 1. write the relocatable file
@@ -444,7 +444,7 @@ public abstract class NativeImageViaCC extends NativeImage {
             /**
              * Bypass the linker for sgx objects: We added a NativeImageOption to test for
              * SGX-builds. These do not require a linker invocation as the relocatable
-             * images can be transfered to the SGX module at this point. pyuhala
+             * images can be transfered to the SGX module at this point. panonymous-xh
              */
 
             System.out.println("----------- List of native image static libraries --------------");

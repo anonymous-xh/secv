@@ -3,9 +3,9 @@
  *
  * 
  * The MIT License (MIT)
- * Copyright (c) 2022 Peterson Yuhala, Institut d'Informatique Université de Neuchâtel (IIUN)
+ * Copyright (c) 2022 anonymous-xh anonymous-xh, Institut d'Informatique Université de Neuchâtel (IIUN)
  *
- * NB: I really do not know how to handle copyright texts :(-- Peterson Yuhala
+ * NB: I really do not know how to handle copyright texts :(-- anonymous-xh anonymous-xh
  * 
  * Copyright (c) 2013, 2018, Oracle and/or its affiliates. All rights reserved.
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.

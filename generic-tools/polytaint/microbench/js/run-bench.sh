@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #
-# PYuhala: script to calculate run time of polyglot
+# Panonymous-xh: script to calculate run time of polyglot
 # program with and w/o instrumentation
 #
 

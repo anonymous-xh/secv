@@ -25,7 +25,7 @@
 - Clone this repo to a directory in local environment, which we will call `graal-sgx-root`. Unless stated otherwise, all `cd` commands assume `graal-sgx-root` as the top working directory.
 ```
 mkdir graal-sgx-root && cd graal-sgx-root
-git clone git@gitlab.com:Yuhala/graal-sgx.git
+git clone git@gitlab.com:anonymous-xh/graal-sgx.git
 
 ```
 

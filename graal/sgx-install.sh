@@ -3,7 +3,7 @@
 #
 # Script to install the Intel SGX driver, SDK, and PSW on Ubuntu based systems.
 # Tested on Ubuntu 18.04 and sgx_2.11
-# Copyright (c) Peterson Yuhala, IIUN
+# Copyright (c) anonymous-xh anonymous-xh, IIUN
 # Based on sgx install script from voltpillager
 #
 
@@ -83,7 +83,7 @@ echo "SGX driver succesfully installed"
 echo "[ Building SGX SDK ]"
 cd $script_path
 git clone https://github.com/intel/linux-sgx.git
-#git clone https://gitlab.com/Yuhala/sgx-sdk-modified.git
+#git clone https://gitlab.com/anonymous-xh/sgx-sdk-modified.git
 
 #cd sgx-sdk-modified/linux-sgx
 cd linux-sgx

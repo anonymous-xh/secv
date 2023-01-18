@@ -43,7 +43,7 @@ public abstract class PosixSystemPropertiesSupport extends SystemPropertiesSuppo
      */
 
     /**
-     * Peterson Yuhala:
+     * anonymous-xh anonymous-xh:
      * These functions cause segfaults enclave side so I'm hardcoding some values
      * compatible with my server ONLY for dev purposes.
      * pw_name : ubuntu

@@ -4,29 +4,20 @@
 
 
 ## Environment setup
-- Begin by creating a directory which will host all your work. We will call this directory `truffle-dev`. 
+- Clone this repository and checkout the `master` branch.
 ```
-mkdir -p truffle-dev
-cd truffle-dev
-```
-- Clone this repository and checkout the `master` branch, within the `truffle-dev` folder.
-```
-git clone https://gitlab.com/Yuhala/generic-tools.git
+git clone https://github.com/anonymous-xh/secv.git
 git checkout master
 ```
+- This repository contains 2 primary folders of interest:
+- 1. `generic-tools` folder: it contains the source code for `polytaint` taint-analysis tool as well as the code partitioner, and `secureL-mvn` which contains the Truffle AST interpreter code used to build secv AST nodes. Henceforth, we refer to this Truffle interpreter/language as `secure language`.
+- 2. `graal` folder: it contains modified code for the GraalVM distribution which we will use.
 
-- Clone our modified `GraalVM` in the `truffle-dev` folder.
-```
-git clone https://github.com/Yuhala/graal.git
-git checkout part
-```
-- To be exact, our modified GraalVM repo is based on `Graal version: 22.1.0 commit bf17700` of the original github repo.
-- Further, we will build this custom GraalVM and use it for the purpose of our project.
-- In the `truffle-dev` folder, download the `mx build tool` used to build GraalVM projects:
+- In the `secv` folder, download the `mx build tool` used to build GraalVM projects:
 ```
 git clone https://github.com/graalvm/mx.git
 ```
-- Our modified GraalVM above builds correctly with version: `5.317.7` of the `mx` tool downloaded above, checkout this version of mx.
+- Our modified GraalVM builds correctly with version: `5.317.7` of the `mx` tool downloaded above, checkout this version of mx.
 ```
 cd mx
 git checkout 5.317.7
@@ -35,7 +26,7 @@ cd ..
 
 - GraalVM's JIT compiler works with the default JVM as a plugin with the help of the JVM compiler interface (JVMCI), and thus requires a JDK which supports a graal-compatible version of JVMCI. You can find a compatible version in `jdk-tools` folder of `generic-tools`: `labsjdk-ce-11.0.13+8-jvmci-22.0-b02-linux-amd64.tar.gz`. Other compatible versions can be found here (for Java 8): [jvmci releases java 8](https://github.com/graalvm/graal-jvmci-8/releases), and here (for Java 11): [jvmci releases java 11](https://github.com/graalvm/labs-openjdk-11/releases). We use Java 11.
 
-- Extract the JDK in the `truffle-dev` working directory
+- Extract the JDK in the `secv` working directory
 ```
 cp generic-tools/jdk-tools/labsjdk-ce-11.0.13+8-jvmci-22.0-b02-linux-amd64.tar.gz .
 tar -xvf labsjdk-ce-11.0.13+8-jvmci-22.0-b02-linux-amd64.tar.gz
@@ -43,7 +34,7 @@ tar -xvf labsjdk-ce-11.0.13+8-jvmci-22.0-b02-linux-amd64.tar.gz
 
 ## Installing Intel SGX tools (SGX SDK + driver)
 - We created a script to install SGX for Ubuntu based systems: `16.04`, `18.04`, and `20.04`. It was tested on both `18.04` and `20.04`
-- Copy the `sgx-install.sh` script from `graal` folder into `truffle-dev`: 
+- Copy the `sgx-install.sh` script from `graal` folder into `secv`: 
 ```
 cp graal/sgx-install.sh .
 
@@ -60,7 +51,7 @@ cp graal/sgx-install.sh .
 
 ## Build GraalVM
 
-- To build GraalVM, we need to add `mx` to the `PATH` and set `JAVA_HOME` to point to the JDK with JVMCI we downloaded. Copy the `generic-tools/set-env.sh` file into the `truffle-dev` directory and source it.
+- To build GraalVM, we need to add `mx` to the `PATH` and set `JAVA_HOME` to point to the JDK with JVMCI we downloaded. Copy the `generic-tools/set-env.sh` file into the `secv` directory and source it.
 ```
 cp generic-tools/set-env.sh
 source set-env.sh
@@ -140,10 +131,3 @@ export MX_PYTHON="python3"
 }
 ```
 
-## Author Info
-- Peterson Yuhala <petersonyuhala@gmail.com>
-
-
-## References
-- GraalVM [SimpleLanguage](https://www.graalvm.org/22.0/graalvm-as-a-platform/implement-language/#run-simplelanguage-with-the-newest-developement-version-of-the-compiler).
-- GraalVM [Instruments](https://www.graalvm.org/22.0/graalvm-as-a-platform/implement-instrument/)

@@ -1,7 +1,7 @@
 
 #!/bin/bash
 #
-# Copyright (c) 2022 Peterson Yuhala, IIUN
+# Copyright (c) 2022 anonymous-xh anonymous-xh, IIUN
 # 
 #
 

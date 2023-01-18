@@ -1,7 +1,7 @@
 /*
  * Created on Wed Mar 09 2022
  *
- * The MIT License (MIT) Copyright (c) 2022 Peterson Yuhala, Institut d'Informatique Université de
+ * The MIT License (MIT) Copyright (c) 2022 anonymous-xh anonymous-xh, Institut d'Informatique Université de
  * Neuchâtel (IIUN)
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
@@ -56,7 +56,7 @@ import com.oracle.truffle.polyt.utils.Logger;
 // Graph coloring problem: control flow graphs.
 
 /**
- * pyuhala PolyTaint is a Truffle instrumentation tool for taint analysis and partitioning of
+ * panonymous-xh PolyTaint is a Truffle instrumentation tool for taint analysis and partitioning of
  * polyglot applications for Intel SGX enclaves. Polytaint leverages the use of secureL types to
  * figure out which methods should be included inside the enclave and which to keep out. The final
  * results are then used by the partitioning module of polytaint to build a trusted and untrusted
@@ -287,7 +287,7 @@ public final class PolyTaintInstrument extends TruffleInstrument {
         private void enable(final Env env) {
 
                 /**
-                 * pyuhala: We create a filter to monitor events which define taint sources (e.g
+                 * panonymous-xh: We create a filter to monitor events which define taint sources (e.g
                  * secureL polyglot instantiation), or that can propagate tainted values across the
                  * program (e.g function calls, var writes, etc)
                  */

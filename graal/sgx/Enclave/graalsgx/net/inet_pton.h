@@ -1,7 +1,7 @@
 /*
  * Created on Wed Mar 17 2021
  *
- * Copyright (c) 2021 Peterson Yuhala, IIUN
+ * Copyright (c) 2021 anonymous-xh anonymous-xh, IIUN
  */
 
 #ifndef INET_H

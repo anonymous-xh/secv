@@ -91,7 +91,7 @@ def unicode_utf8(string):
 def _with_metaclass(meta, *bases):
     """Create a base class with a metaclass."""
 
-    # Copyright (c) 2010-2018 Benjamin Peterson
+    # Copyright (c) 2010-2018 Benjamin anonymous-xh
     # Taken from six, Python compatibility library
     # MIT license
 

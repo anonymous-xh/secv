@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #
-# PYuhala: script to delete all files generated for 
+# Panonymous-xh: script to delete all files generated for 
 # synthetic benchmark
 #
 

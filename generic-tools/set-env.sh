@@ -1,6 +1,6 @@
 #!/bin/bash
 # 
-# Author: Peterson Yuhala
+# Author: anonymous-xh anonymous-xh
 # adds mx to path and points java home to jdk-jvmci
 #
 export PATH=$PWD/mx:$PATH

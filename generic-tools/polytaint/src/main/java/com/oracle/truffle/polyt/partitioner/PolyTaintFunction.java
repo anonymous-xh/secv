@@ -1,7 +1,7 @@
 /*
  * Created on Wed May 11 2022
  *
- * The MIT License (MIT) Copyright (c) 2022 Peterson Yuhala, Institut d'Informatique Université de
+ * The MIT License (MIT) Copyright (c) 2022 anonymous-xh anonymous-xh, Institut d'Informatique Université de
  * Neuchâtel (IIUN)
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
@@ -213,7 +213,7 @@ public class PolyTaintFunction {
         }
         if (type.equals(unknownType)) {
             /**
-             * PYuhala: use a generic object type here
+             * Panonymous-xh: use a generic object type here
              */
             // System.out.println("unknown type for:" + var + " getClass: " + var.getClass());
             type = "Object";

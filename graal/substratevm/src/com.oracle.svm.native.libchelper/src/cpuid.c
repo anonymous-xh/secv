@@ -40,7 +40,7 @@ static void read_xem_xcr0(uint32_t *eax, uint32_t *edx) {
   __asm__ __volatile__("xgetbv" : "=a"(*eax), "=d"(*edx) : "c"(0));
 }
 
-//pyuhala: commenting the definitions: already defined in sgx module
+//panonymous-xh: commenting the definitions: already defined in sgx module
 unsigned int get_cpuid_max (unsigned int ext, unsigned int *sig);
 int get_cpuid_count (unsigned int leaf, unsigned int subleaf, unsigned int *eax, unsigned int *ebx, unsigned int *ecx, unsigned int *edx);
 int get_cpuid (unsigned int leaf, unsigned int *eax, unsigned int *ebx, unsigned int *ecx, unsigned int *edx);

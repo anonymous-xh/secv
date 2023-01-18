@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #
-# PYuhala:script to run Java program to generate
+# Panonymous-xh:script to run Java program to generate
 # synthetic benchmark polyglot programs
 #
 

@@ -611,7 +611,7 @@ public class NativeImageGenerator {
                 compileQueue.finish(debug);
 
                  if(isSGXObject){
-                    System.out.println("Compiling app into relocatable SGX enclave object (.o) ----pyuhala");
+                    System.out.println("Compiling app into relocatable SGX enclave object (.o) ----panonymous-xh");
                 }
                 /* release memory taken by graphs for the image writing */
                 hUniverse.getMethods().forEach(HostedMethod::clear);

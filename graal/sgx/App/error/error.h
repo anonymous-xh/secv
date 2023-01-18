@@ -1,7 +1,7 @@
 /*
  * Created on Tue Jul 14 2020
  *
- * Copyright (c) 2020 Peterson Yuhala, IIUN
+ * Copyright (c) 2020 anonymous-xh anonymous-xh, IIUN
  */
 #ifndef ERROR_H
 #define ERROR_H

@@ -1,7 +1,7 @@
 /*
  * Created on Wed Mar 09 2022
  *
- * The MIT License (MIT) Copyright (c) 2022 Peterson Yuhala
+ * The MIT License (MIT) Copyright (c) 2022 anonymous-xh anonymous-xh
  * 
  * Copyright 2018 Dynamic Analysis Group, Università della Svizzera Italiana (USI) Copyright (c)
  * 2019, 2021, Oracle and/or its affiliates. All rights reserved.
@@ -196,7 +196,7 @@ public class PolyTaintNode extends ExecutionEventNode {
     public void onReturnValue(VirtualFrame vFrame, Object result) {
 
         /**
-         * PYuhala: this method is overidden in the subclasses.
+         * Panonymous-xh: this method is overidden in the subclasses.
          */
     }
 
@@ -371,7 +371,7 @@ public class PolyTaintNode extends ExecutionEventNode {
     }
 
     /**
-     * pyuhala: Gets the types of the function arguments for the function being called. For JS
+     * panonymous-xh: Gets the types of the function arguments for the function being called. For JS
      * function calls, getArgument() returns: Arg 0: DynamicObject<undefined> Arg 1:
      * DynamicObject<JSFunction> Arg 2 ... : the real arguments passed to the function in the
      * program () NB: we have to find a way to provide generic types which will match different
@@ -493,7 +493,7 @@ public class PolyTaintNode extends ExecutionEventNode {
     }
 
     /**
-     * pyuhala: copied implementation from ExternalFunctionNodes.java
+     * panonymous-xh: copied implementation from ExternalFunctionNodes.java
      * 
      * @param frame
      * @return
@@ -660,7 +660,7 @@ public class PolyTaintNode extends ExecutionEventNode {
     }
 
     /**
-     * Peterson Yuhala Checks if a source section is explicitly creating a secureL context. This
+     * anonymous-xh anonymous-xh Checks if a source section is explicitly creating a secureL context. This
      * could also be done by analysing the arguments in the virtual frame. But I prefer this way for
      * now.
      */
@@ -691,7 +691,7 @@ public class PolyTaintNode extends ExecutionEventNode {
 
 
     /**
-     * Peterson Yuhala Parses source text corresponding and extracts information demanded.
+     * anonymous-xh anonymous-xh Parses source text corresponding and extracts information demanded.
      * 
      * @param source
      * @param baseName
@@ -790,7 +790,7 @@ public class PolyTaintNode extends ExecutionEventNode {
 
     /**
      * Checks the source section to determine if this variable write is receiving values from a
-     * secureL polyglot interopt. pyuhala: can be done more smartly; TODO
+     * secureL polyglot interopt. panonymous-xh: can be done more smartly; TODO
      * 
      * @return
      */
@@ -1050,7 +1050,7 @@ public class PolyTaintNode extends ExecutionEventNode {
     }
 
     /**
-     * PYuhala: If we have already seen input types for this function, we check if the new the new
+     * Panonymous-xh: If we have already seen input types for this function, we check if the new the new
      * input types fit in the old ones. Otherwise, we set the bigger input type as argument type to
      * prevent overflows. For example, if func took "int" in the first call, and now takes "double",
      * choose "double" as the new input type.

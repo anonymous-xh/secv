@@ -1,7 +1,7 @@
 /*
  * Created on Wed Jul 15 2020
  *
- * Copyright (c) 2020 Peterson Yuhala, IIUN
+ * Copyright (c) 2020 anonymous-xh anonymous-xh, IIUN
  */
 
 #ifndef GRAAL_SGX_SHIM_H
@@ -9,7 +9,7 @@
 
 //#define __USE_LARGEFILE64 //for stat64
 
-// used by some reimplementations. For testing purposes --PYuhala
+// used by some reimplementations. For testing purposes --Panonymous-xh
 #define GRAAL_SGX_STACK_SIZE 0x200000
 #define GRAAL_SGX_PAGESIZE 4096
 #define GRAAL_SGX_GUARDSIZE GRAAL_SGX_PAGESIZE
@@ -111,7 +111,7 @@ struct statvfs
 };
 
 // extern char **environ;
-//  This prevents "name mangling" by g++ ---> PYuhala
+//  This prevents "name mangling" by g++ ---> Panonymous-xh
 #if defined(__cplusplus)
 extern "C"
 {

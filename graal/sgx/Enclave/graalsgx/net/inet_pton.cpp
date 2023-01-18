@@ -4,7 +4,7 @@
  * Inet pton code
  * Sources:
  * https://rsync.samba.org/doxygen/head/inet__pton_8c-source.html
- * https://github.com/Yuhala/mongo-sgx-client/blob/master/trusted/inet_pton_ntop.c
+ * https://github.com/anonymous-xh/mongo-sgx-client/blob/master/trusted/inet_pton_ntop.c
  * 
  */
 #include "../../Enclave.h"

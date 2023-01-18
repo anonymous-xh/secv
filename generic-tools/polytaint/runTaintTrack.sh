@@ -42,7 +42,7 @@
 
 
 #
-# Peterson Yuhala
+# anonymous-xh anonymous-xh
 #
 
 function printUsage() {

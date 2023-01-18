@@ -1,7 +1,7 @@
 /*
  * Created on Fri Jul 24 2020
  *
- * Copyright (c) 2020 Peterson Yuhala, IIUN
+ * Copyright (c) 2020 anonymous-xh anonymous-xh, IIUN
  *
  */
 
@@ -78,7 +78,7 @@ int ocall_pthread_create(pthread_t *new_thread_in, unsigned long int job_id, sgx
     GRAAL_SGX_INFO();
     internal_ecall_arg *arguments = (internal_ecall_arg *)malloc(sizeof(internal_ecall_arg));
     arguments->job_id = job_id;
-    arguments->eid = global_eid; // eid; //pyuhala: our tests for now use one enclave so this should be the right value.
+    arguments->eid = global_eid; // eid; //panonymous-xh: our tests for now use one enclave so this should be the right value.
 
     /* Create attrib */
     pthread_attr_t *attr = (pthread_attr_t *)malloc(sizeof(pthread_attr_t));
@@ -221,7 +221,7 @@ int ocall_pthread_attr_getstack(void **stk_addr, size_t *stack_size)
 
 /**
  * @brief
- * Pyuhala:
+ * Panonymous-xh:
  * Manually set the threads stack attributes.
  * Based on code from: https://www.ibm.com/docs/en/zos/2.4.0?topic=functions-pthread-attr-setstack-set-stack-attribute
  *

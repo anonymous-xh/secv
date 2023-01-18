@@ -2,7 +2,7 @@
 /*
  * Created on Wed Mar 31 2022
  *
- * The MIT License (MIT) Copyright (c) 2022 Peterson Yuhala, Institut d'Informatique Université de
+ * The MIT License (MIT) Copyright (c) 2022 anonymous-xh anonymous-xh, Institut d'Informatique Université de
  * Neuchâtel (IIUN)
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and

@@ -1,7 +1,7 @@
 /*
  * Created on Tue Jul 21 2020
  *
- * Copyright (c) 2020 Peterson Yuhala, IIUN
+ * Copyright (c) 2020 anonymous-xh anonymous-xh, IIUN
  * Some ideas were taken from Panoply code
  */
 #include <unistd.h>
@@ -359,7 +359,7 @@ int ocall_fcntl(int fd, int cmd, int arg)
 
 /**
  * @brief
- * PYuhala
+ * Panonymous-xh
  * Ocalls to ZLIB Library functions.
  * NB: Z_STREAMP is a void* pointer typedef for in-enclave usage
  * of the real void* (i.e zstream pointer) in zlib. So make sure
@@ -410,7 +410,7 @@ void copy_zstreamp_content()
 }
 /**
  * @brief
- * pyuhala:
+ * panonymous-xh:
  * Allocates zstream pointer which will be used
  * in place of enclave pointer for the untrusted side.
  * Its contents will be copied to the in-enclave pointer

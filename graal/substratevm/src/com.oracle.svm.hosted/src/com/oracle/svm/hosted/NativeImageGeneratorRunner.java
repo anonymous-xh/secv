@@ -304,7 +304,7 @@ public class NativeImageGeneratorRunner {
             }
 
              /**
-             * pyuhala: Change the name of image to "main" if we are dealing with Intel SGX objects
+             * panonymous-xh: Change the name of image to "main" if we are dealing with Intel SGX objects
              * This name simplifies things at the level of the sgx-module. It always imports
              * main.h
              */

@@ -1,7 +1,7 @@
 /*
  * Created on Tue Mar 23 2021
  *
- * Copyright (c) 2021 Peterson Yuhala, IIUN
+ * Copyright (c) 2021 anonymous-xh anonymous-xh, IIUN
  * Defines routines used to count ocall transitions
  */
 

@@ -1,7 +1,7 @@
 /*
  * Created on Wed May 11 2022
  *
- * The MIT License (MIT) Copyright (c) 2022 Peterson Yuhala, Institut d'Informatique Université de
+ * The MIT License (MIT) Copyright (c) 2022 anonymous-xh anonymous-xh, Institut d'Informatique Université de
  * Neuchâtel (IIUN)
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
@@ -447,7 +447,7 @@ public class Partitioner {
                  * the function definitions will be exported accordingly as Java static methods and
                  * exposed in the polyglot execution context.
                  */
-                // String jsPattern = "function[^}]*}";//Pyuhala: does not work correctly
+                // String jsPattern = "function[^}]*}";//Panonymous-xh: does not work correctly
                 // mainSource = mini.replaceAll(jsPattern, "");
 
                 /*
@@ -476,7 +476,7 @@ public class Partitioner {
     }
 
     /**
-     * PYuhala: Gets all parts of the string which are not within function blocks.
+     * Panonymous-xh: Gets all parts of the string which are not within function blocks.
      * 
      * @param src
      */
@@ -720,7 +720,7 @@ public class Partitioner {
                 }
 
                 /**
-                 * PYuhala: box all object params as values. The getWrappedParams will give name the
+                 * Panonymous-xh: box all object params as values. The getWrappedParams will give name the
                  * objects correctly. That is: param_obji or parami, for object and primitive types
                  * respectively.
                  */
@@ -1110,7 +1110,7 @@ public class Partitioner {
             if (retType.equals("Object")) {
                 // type = "void*";
                 /**
-                 * PYuhala: the object will be returned via an additional buffer parameter.
+                 * Panonymous-xh: the object will be returned via an additional buffer parameter.
                  */
                 retType = "void";
                 hasObjRet = true;
@@ -1150,7 +1150,7 @@ public class Partitioner {
                 retType = "void*";
                 // type = "void*";
                 /**
-                 * PYuhala: the object will be returned via an additional buffer parameter.
+                 * Panonymous-xh: the object will be returned via an additional buffer parameter.
                  */
                 retType = "void";
             }
@@ -1506,7 +1506,7 @@ public class Partitioner {
 
 
     /**
-     * pyuhala: Minifying python src is a bit tricky as we need to take into consideration
+     * panonymous-xh: Minifying python src is a bit tricky as we need to take into consideration
      * indentation. We escape all "s, replace all newlines with \n and then all tabs (group of 4
      * spaces) with \t.
      * 

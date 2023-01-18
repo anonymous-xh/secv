@@ -205,7 +205,7 @@ public final class StackOverflowCheckImpl implements StackOverflowCheck {
 
         ThreadingSupportImpl.resumeRecurringCallbackAtNextSafepoint();
 
-        // pyuhala: trying to disable the check
+        // panonymous-xh: trying to disable the check
         // yellowZoneStateTL.set(0x7EFEFEFE);
 
         int state = yellowZoneStateTL.get();

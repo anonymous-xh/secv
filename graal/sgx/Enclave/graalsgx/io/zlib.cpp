@@ -1,6 +1,6 @@
 /**
  * @file zlib.cpp
- * @author Peterson Yuhala
+ * @author anonymous-xh anonymous-xh
  * @brief
  * Some helper functions for handling z_stream pointers
  * in and out of the enclave.
@@ -165,7 +165,7 @@ void copy_zstream(void *dest_streamp, void *src_streamp)
 
 /**
  * @brief
- * PYuhala
+ * Panonymous-xh
  * Print the meaning of the error code
  *
  * @param error_code

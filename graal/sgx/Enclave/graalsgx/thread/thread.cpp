@@ -2,7 +2,7 @@
  * Created on Fri Jul 24 2020
  *
  * Copyright (c) 2017 Panoply
- * Copyright (c) 2020 Peterson Yuhala, IIUN
+ * Copyright (c) 2020 anonymous-xh anonymous-xh, IIUN
  * Some code ideas here is based on code from Panoply source code e.g job map
  *
  */
@@ -162,7 +162,7 @@ int pthread_attr_getstack(pthread_attr_t *attr, void **stackaddr, size_t *stacks
 
 /**
  * @brief
- * PYuhala:
+ * Panonymous-xh:
  * custom reimplementation of function
  * @param attr
  * @param stackaddr

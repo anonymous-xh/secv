@@ -1,7 +1,7 @@
 /*
  * Created on Fri Nov 05 2021
  *
- * Copyright (c) 2021 Peterson Yuhala, IIUN
+ * Copyright (c) 2021 anonymous-xh anonymous-xh, IIUN
  * Testing polyglot native images
  */
 

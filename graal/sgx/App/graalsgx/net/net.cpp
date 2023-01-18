@@ -1,7 +1,7 @@
 /*
  * Created on Wed Jul 22 2020
  *
- * Copyright (c) 2020 Peterson Yuhala, IIUN
+ * Copyright (c) 2020 anonymous-xh anonymous-xh, IIUN
  */
 
 #include <sys/types.h> /* See NOTES */
@@ -237,7 +237,7 @@ ssize_t ocall_sendmsg(int sockfd, struct msghdr *msg, int flags)
     log_ocall(__func__);
 
     ssize_t ret = sendmsg(sockfd, msg, flags);
-    //pyuhala:free message header here
+    //panonymous-xh:free message header here
     free(msg);
     return ret;
 }

@@ -70,7 +70,7 @@ cp ../language/target/securelanguage.jar "$LANGUAGE_PATH"
 mkdir -p "$LANGUAGE_PATH/bin"
 #cp ../sl $LANGUAGE_PATH/bin/
 #
-# Peterson Yuhala
+# anonymous-xh anonymous-xh
 # This is a "nasty" workaround: TODO build real secl native img
 #
 touch "$LANGUAGE_PATH/bin/secl"

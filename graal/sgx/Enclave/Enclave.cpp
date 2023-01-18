@@ -70,7 +70,7 @@ void set_stack_address()
 {
     /**
      * @brief
-     * PYuhala
+     * Panonymous-xh
      * This method is one of the first called after the
      * initial ecall. We allocate a variable and use it
      * as our stackbase; not exact but is close to the real base.
@@ -106,7 +106,7 @@ void *get_r15_register()
 
 /**
  * @brief
- * PYuhala
+ * Panonymous-xh
  * Estimating top of the stack by
  * traversing frames until we reach an invalid
  * address.

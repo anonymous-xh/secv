@@ -57,7 +57,7 @@ enum { ASSERT_CONCAT(static_assert_, __COUNTER__) = 1/(!!(exp)) }
 
 /**
  * @brief 
- * PYuhala: these defs were copied from
+ * Panonymous-xh: these defs were copied from
  * internal headers and are normally not 
  * included here, but we need something self-contained.
  */

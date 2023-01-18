@@ -1,4 +1,4 @@
-// Author: Peterson Yuhala
+// Author: anonymous-xh anonymous-xh
 grammar SecureL;
 
 @header{

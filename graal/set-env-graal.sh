@@ -1,6 +1,6 @@
 #!/bin/bash
 # 
-# Author: Peterson Yuhala
+# Author: anonymous-xh anonymous-xh
 # This script updates adds graalvm dev build to the path 
 # and modifies JAVA_HOME to point to it.
 #

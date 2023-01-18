@@ -84,7 +84,7 @@ public abstract class AbstractImage {
         }
 
         /**
-         * pyuhala: overloading constructor + some methods to add test for sgx builds
+         * panonymous-xh: overloading constructor + some methods to add test for sgx builds
          */
         NativeImageKind(boolean executable, boolean sgx) {
             isExecutable = executable;

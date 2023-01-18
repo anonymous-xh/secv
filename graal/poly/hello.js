@@ -1,5 +1,5 @@
 /**
- * Peterson Yuhala, IIUN
+ * anonymous-xh anonymous-xh, IIUN
  * Test file to be evaluated by a Truffle polyglot 
  * context
  */

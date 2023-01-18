@@ -1,7 +1,7 @@
 /*
  * Created on Wed Jul 22 2020
  *
- * Copyright (c) 2020 Peterson Yuhala, IIUN
+ * Copyright (c) 2020 anonymous-xh anonymous-xh, IIUN
  */
 #include "../../checks.h" //for pointer checks
 #include "../../Enclave.h"

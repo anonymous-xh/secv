@@ -2,7 +2,7 @@
 /*
  * Created on Fri Aug 14 2020
  *
- * Copyright (c) 2020 Peterson Yuhala, IIUN
+ * Copyright (c) 2020 anonymous-xh anonymous-xh, IIUN
  */
 
 #include "error.h"

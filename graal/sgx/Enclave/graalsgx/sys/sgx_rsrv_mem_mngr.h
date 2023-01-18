@@ -29,7 +29,7 @@
  *
  */
 
-//same purpose as file guards below; both included probably for legacy reasons ---> pyuhala
+//same purpose as file guards below; both included probably for legacy reasons ---> panonymous-xh
 #pragma once
 
 #ifndef _SGX_RSRV_MEM_MNGR_H_

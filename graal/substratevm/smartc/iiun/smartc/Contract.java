@@ -1,7 +1,7 @@
 /*
  * Created on Wed Sep 09 2020
  *
- * Copyright (c) 2020 Peterson Yuhala, IIUN
+ * Copyright (c) 2020 anonymous-xh anonymous-xh, IIUN
  */
 package iiun.smartc;
 

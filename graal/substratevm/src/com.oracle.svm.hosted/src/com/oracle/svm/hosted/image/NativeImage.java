@@ -182,7 +182,7 @@ public abstract class NativeImage extends AbstractImage {
         }
 
          /**
-         * pyuhala: copy main.o if it is an sgx enclave object
+         * panonymous-xh: copy main.o if it is an sgx enclave object
          */
         if(sgx){
 

@@ -2,7 +2,7 @@
  * Created on Wed April 14 2022
  *
  * The MIT License (MIT)
- * Copyright (c) 2022 Peterson Yuhala, Institut d'Informatique Université de Neuchâtel (IIUN)
+ * Copyright (c) 2022 anonymous-xh anonymous-xh, Institut d'Informatique Université de Neuchâtel (IIUN)
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy of this software
  * and associated documentation files (the "Software"), to deal in the Software without restriction,
@@ -66,7 +66,7 @@ public final class SecureLTruffleParser {
 
         SecureLParser.ExprContext exprContext = parser.start().expr();
         /**
-         * Peterson Yuhala
+         * anonymous-xh anonymous-xh
          * According to our grammar so far, a secureL expression could either be of
          * subtype
          * "prim" for primitive types or "array" for array types. So we get the

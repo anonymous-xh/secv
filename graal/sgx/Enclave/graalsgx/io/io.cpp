@@ -2,7 +2,7 @@
 /*
  * Created on Tue Jul 21 2020
  *
- * Copyright (c) 2020 Peterson Yuhala, IIUN
+ * Copyright (c) 2020 anonymous-xh anonymous-xh, IIUN
  */
 
 /**
@@ -628,7 +628,7 @@ int pthread_kill(pthread_t thread, int sig)
 
 /**
  * @file
- * @author Peterson Yuhala
+ * @author anonymous-xh anonymous-xh
  * @brief
  * The family of functions below represent the wrappers
  * for some zlib-library functions. The generic idea is

@@ -1,7 +1,7 @@
 /*
  * Created on Wed Mar 31 2022
  *
- * The MIT License (MIT) Copyright (c) 2022 Peterson Yuhala
+ * The MIT License (MIT) Copyright (c) 2022 anonymous-xh anonymous-xh
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
  * associated documentation files (the "Software"), to deal in the Software without restriction,
@@ -184,7 +184,7 @@ public class RootWrapperNode extends PolyTaintNode {
     }
 
     /**
-     * Checks if this function takes a tainted variable as input PYuhala: so far reading values in
+     * Checks if this function takes a tainted variable as input Panonymous-xh: so far reading values in
      * the virtual frame haven't helped. So we parse the corresponding source to detect tainted
      * input/params.
      * 

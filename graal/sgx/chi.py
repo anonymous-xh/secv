@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 #
-# Author: Peterson Yuhala
+# Author: anonymous-xh anonymous-xh
 # Graal-SGX Benchmarking script for graphchi
 #
 
